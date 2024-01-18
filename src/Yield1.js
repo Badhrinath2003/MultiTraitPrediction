@@ -42,7 +42,7 @@ const Yield = () => {
 
     try {
       // Send the numeric genotype array to the backend
-      const response = await fetch("https://mvproject678.pythonanywhere.com/predict", {
+      const response = await fetch("http://rushik09.pythonanywhere.com/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -123,7 +123,7 @@ const Yield = () => {
           </table>
         </div>
       )}
-    </div>
+  </div>
   );
 };
 
