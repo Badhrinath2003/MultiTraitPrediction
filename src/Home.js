@@ -58,11 +58,59 @@ const Home = () => {
             <p id="matter">Accuracy of our model is between 80-90%.Machine learning models are utilized for predicting yield.Machine Learning and AI are the techonologies used in many domains.These models helps to predict values based on past data</p>
           </div>
         </div>
-      
-
       </div>
       <br /><br />
-      
+      <section id="explore" class="explore">
+			<div class="container">
+				<div class="section-header">
+					<h2>Explore</h2>
+					<p>Find out what each trait means</p>
+				</div>
+      </div>
+				<div class="explore-content">
+					<div class="single-explore-item">
+						<div class="single-explore-txt"  id="trait1">
+							<h2>Days to Heading (DH)</h2>
+							<p>Days to heading is the duration from planting to the appearance of the wheat heads or flowering. It typically ranges from 60 to 120 days, depending on the variety and growing conditions.</p>
+						</div>
+					</div>
+			
+					<div class="single-explore-item">
+						<div class="single-explore-txt"  id="trait2">
+							<h2>Grain Filling Duration</h2>
+							<p>Grain filling duration is the period between flowering and grain maturity. It lasts around 20 to 40 days, during which grains develop and accumulate starch.</p>
+						</div>
+					</div>
+
+					<div class="single-explore-item">
+						<div class="single-explore-txt" id="trait3">
+							<h2>Grain Number Per Spike</h2>
+							<p>This trait refers to the quantity of grains on each wheat spike. Varieties may have different capacities, impacting overall yield potential.</p>	
+						</div>
+					</div>
+
+					<div class="single-explore-item">
+						<div class="single-explore-txt" id="trait4">
+							<h2>Grain Weight Per Spike</h2>
+							<p>Grain weight per spike is the average weight of individual grains on a wheat spike. It influences the overall yield and quality of the harvest.</p>
+						</div>
+					</div>
+
+					<div class="single-explore-item">
+						<div class="single-explore-txt" id="trait5">
+							<h2>Plant Height</h2>
+							<p>Plant height is the vertical measurement from the base to the tip of the wheat plant. Varieties vary in height, affecting factors such as lodging resistance and ease of harvesting.</p>
+						</div>
+					</div>
+
+					<div class="single-explore-item">
+						<div class="single-explore-txt" id="trait6">
+							<h2>Grain Yield</h2>
+							<p>Grain yield is the total amount of wheat harvested per unit area. It depends on a combination of the aforementioned traits and is a crucial factor in assessing the productivity of a wheat variety.</p>
+						</div>
+					</div>			
+				</div>
+		  </section>
     </body>
     <Footer/>
     </>

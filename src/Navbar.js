@@ -18,9 +18,9 @@ const Navbar = () => (
                 <li className="nav-item">
                   <Link className="nav-link" to="/yield" id="navv">Predict Yield</Link>
                 </li>
-                
-                
-
+                <li className="nav-item">
+                  <a className="nav-link" href="#explore" id="navv">Explore</a>
+                </li>
               </ul>
             </div>
           </div>
